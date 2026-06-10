@@ -1,0 +1,11 @@
+# Global gitignore file
+# Setup: Add this template to ~/.gitignore_global
+
+# MACOS
+
+# Folder view configuration files
+.DS_Store
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes

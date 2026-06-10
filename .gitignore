@@ -1,0 +1,6 @@
+.DS_Store
+
+config/_vim.bak
+config/raycast
+config/wireshark
+__pycache__/

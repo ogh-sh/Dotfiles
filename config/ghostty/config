@@ -1,0 +1,49 @@
+# This is the user configuration file for Ghostty.
+
+# The main configuration file is found at
+
+# /Users/octa/Library/Application Support/com.mitchellh.ghostty/config
+
+# Run `ghostty +show-config --default --docs` to view a list of all available config options and their default values.
+
+# Additionally, each config option is also explained in detail on Ghostty's website
+# https://ghostty.org/docs/config.
+
+
+# By default Reload config with shft + cmd + ,
+
+# APPEARANCE
+
+background = #031528
+background-opacity = 0.75
+background-blur-radius = 23
+font-family = "JetBrainsMono Nerd Font"
+font-size = 24
+theme = TokyoNight
+cursor-style = underline
+cursor-color = #61AFEF
+title = " "
+window-save-state = always
+
+# KEYBOARD SHORTCUTS
+
+# Pop up quick terminal with CMD + `
+keybind=global:cmd+grave_accent=toggle_quick_terminal
+
+# Clear the screen with CTRL + K
+keybind=ctrl+k=clear_screen
+
+# Open command palette with CMD + K
+keybind=cmd+k=toggle_command_palette
+
+# Split panes using | and - in the current directory
+keybind = cmd+opt+\=new_split:right
+keybind = cmd+opt+-=new_split:down
+
+# Pane navigation uses vim directional keys
+keybind = cmd+opt+l=goto_split:next
+keybind = cmd+opt+h=goto_split:previous
+
+
+
+

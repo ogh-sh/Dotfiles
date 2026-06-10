@@ -1,0 +1,45 @@
+<gitmoji>:<TYPE>[<ISSUE_ID>]
+:tada Initial Commit
+<Subject_line_goes_here>
+
+# |<---- Using a Maximum Of 50 Characters ---->|
+
+CHANGES:
+
+# Explain why this change is being made using bullets if needed.
+
+-
+
+# |<---- Try To Limit Each Line to a Maximum Of 72 Characters ---->|
+
+RELATED: (issues/articles/links/resources)
+
+1. example Github issue #42
+
+--- COMMIT END ---
+
+# ---- !! REMOVE this section and inline comments from this template!!
+
+# This file is a template for creating well structured commit messages
+
+# Setup: Add this template file to ~/.gitmessage
+
+# <TYPE> - feat, fix, refactor, doc, chore
+
+# <gitmoji> - (https://gitmoji.dev/): eg: :sparkles:feature
+
+# 🧠 Don't forget to:
+
+# Keep capitalisation
+
+# Use the imperative mood in the subject line
+
+# Do not end the subject line with a period
+
+# Separate subject from body with a blank line
+
+# Use the body to explain what and why vs. how
+
+# Can use multiple lines with "-" for bullet points in body
+
+# --------------------

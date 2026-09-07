@@ -3,7 +3,7 @@
 # Reference: https://macos-defaults.com/
 # Note that some of these changes require a logout/restart to take effect.
 
-# Environment variables
+# Load environment variables
 export COMPUTER_NAME="minima"
 export HOST_NAME="minima"
 export LOCALHOST_NAME="minima"

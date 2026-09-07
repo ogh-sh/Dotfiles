@@ -2,9 +2,7 @@
 tap "1password/tap"
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "mongodb/brew"
 tap "nikitabobko/tap"
-tap "withgraphite/tap"
 brew "atac"
 brew "atuin"
 brew "bash"
@@ -79,5 +77,3 @@ cask "streamlabs"
 
 cask "time-out"
 cask "vlc"
-
-cask "zulu@17"
